@@ -45,7 +45,7 @@ $ task run
 ````
 Demais comando utilizando poetry:
 
-[Comando poetry]()
+[Comando poetry](https://github.com/Gelzieny/fast_zero/blob/main/doc/poetry.md)
 
 ## 🧑🏻‍💻 Autor
 
