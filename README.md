@@ -46,6 +46,12 @@ $ cd fast_zero
 # Poetry para usar uma versão específica do Python
 poetry env use 3.13
 
+# Instale as dependências
+poetry install
+
+#Comando para instalar uma extensão do Poetry para habilitar o shell
+pipx inject poetry poetry-plugin-shell
+
 # Ativar o ambiente virtual criado pelo Poetry para o seu projeto
 poetry shell
 
