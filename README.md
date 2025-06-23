@@ -22,4 +22,8 @@ poetry env use 3.13
 
 # Ativar o ambiente virtual criado pelo Poetry para o seu projeto
 poetry shell
+
+
+# Rodar o comando 
+docker-compose up -d
 ````
