@@ -41,11 +41,13 @@ Este projeto tem como objetivo apresentar os fundamentos e boas práticas do des
 <p align="justify">Este projeto utiliza um conjunto de tecnologias modernas para garantir uma aplicação eficiente e escalável, incluindo:</p>
 
 
-- **[FastAPI](https://fastapi.tiangolo.com/)**: Framework web moderno e rápido para a criação de APIs com Python baseado em tipo. Permite validações automáticas, geração de documentação interativa e desempenho comparável ao Node.js e Go.
-- **[Pytest](https://docs.pytest.org/)**: Framework robusto para testes automatizados em Python. Simples de começar e poderoso o suficiente para testar aplicações complexas, com suporte a fixtures, plugins e relatórios de cobertura.
-- **[Poetry](https://python-poetry.org/)**: Ferramenta para gerenciamento de dependências e empacotamento de projetos Python. Substitui o uso do `pip` e `virtualenv` com uma abordagem mais moderna e organizada via `pyproject.toml`.
-- **[Taskipy](https://pypi.org/project/taskipy/)**: Utilitário que permite automatizar tarefas usando scripts definidos no `pyproject.toml`. É ideal para encurtar comandos comuns como `test`, `lint`, `run`, entre outros.
-- **[Ruff](https://docs.astral.sh/ruff/)**: Linter extremamente rápido escrito em Rust, usado para garantir a qualidade e padronização do código Python. Substitui ferramentas como Flake8 e isort com alta performance.
+## 🧰 Tecnologias utilizadas
+
+- **[FastAPI](https://fastapi.tiangolo.com/)**: Framework moderno e rápido para criar APIs em Python, com validações automáticas e documentação gerada automaticamente.
+- **[Pytest](https://docs.pytest.org/)**: Ferramenta simples e poderosa para escrever e executar testes em Python.
+- **[Poetry](https://python-poetry.org/)**: Gerenciador de dependências e ambientes para projetos Python, com configuração centralizada no `pyproject.toml`.
+- **[Taskipy](https://pypi.org/project/taskipy/)**: Automatiza tarefas como testes e linters com comandos curtos definidos no `pyproject.toml`.
+- **[Ruff](https://docs.astral.sh/ruff/)**: Linter rápido para manter o código Python limpo e padronizado.
 
 
 ## 🚀 Como executar o projeto
@@ -58,6 +60,7 @@ Este projeto tem como objetivo apresentar os fundamentos e boas práticas do des
   <img src="https://skillicons.dev/icons?i=git,python,docker,vscode" />
 </a>
 
+### Clone o repositório
 
 ````bash
 # Clone este repositório
